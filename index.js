@@ -10,6 +10,10 @@ app.get("/", (req, res) => {
   res.send("Hello bangladesh");
 });
 
+app.get("/s", (req, res) => {
+  res.send("another route");
+});
+
 
 app.listen(port, () => {
   console.log(`Server listening on ${port}`);
